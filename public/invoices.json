@@ -1,0 +1,64 @@
+{
+    "invoices": [
+        {
+            "id": 1,
+            "number": "INV-001",
+            "client": "Acme Corp",
+            "total": 1500.0,
+            "dueDate": "2023-05-15",
+            "status": "outstanding",
+            "lineItems": [
+                {
+                    "description": "Web Development",
+                    "quantity": 10,
+                    "rate": 150.0,
+                    "amount": 1500.0
+                }
+            ],
+            "notes": "Please pay within 30 days. Send checks to: 123 Invoice St, Business City, 12345",
+            "paymentInstructions": "Pay by bank transfer to Account: 1234567890, Routing: 987654321"
+        },
+        {
+            "id": 2,
+            "number": "INV-002",
+            "client": "TechStart Inc",
+            "total": 2000.0,
+            "dueDate": "2023-04-30",
+            "status": "paid",
+            "lineItems": [
+                {
+                    "description": "UI/UX Design",
+                    "quantity": 20,
+                    "rate": 100.0,
+                    "amount": 2000.0
+                }
+            ],
+            "notes": "Thank you for your business!",
+            "paymentInstructions": "Payment received. Thank you!"
+        },
+        {
+            "id": 3,
+            "number": "INV-003",
+            "client": "Global Solutions LLC",
+            "total": 3500.0,
+            "dueDate": "2023-05-01",
+            "status": "late",
+            "lineItems": [
+                {
+                    "description": "Project Management",
+                    "quantity": 25,
+                    "rate": 120.0,
+                    "amount": 3000.0
+                },
+                {
+                    "description": "Travel Expenses",
+                    "quantity": 1,
+                    "rate": 500.0,
+                    "amount": 500.0
+                }
+            ],
+            "notes": "Payment is overdue. Please settle the invoice as soon as possible.",
+            "paymentInstructions": "Pay online at www.invoiceapp.com/pay/INV-003"
+        }
+    ]
+}
